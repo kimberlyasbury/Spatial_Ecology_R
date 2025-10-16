@@ -1,0 +1,17 @@
+# code for analysing spatial dispersion
+
+#install.packages("terra")
+#install.packages("sdm")
+
+library(terra)
+library(sdm)
+
+file <- system.file("external/species.shp",package="sdm")
+
+rana <- vect(file)
+
+plot(rana)
+
+rana
+
+rana$Occurrence
