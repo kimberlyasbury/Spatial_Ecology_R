@@ -15,3 +15,8 @@ plot(rana)
 rana
 
 rana$Occurrence
+
+#== means equals != means does not equal
+pres <-rana[rana$Occurrence==1]
+
+
